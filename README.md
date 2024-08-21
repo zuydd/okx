@@ -25,6 +25,8 @@
 - [users.txt](src/data/users.txt) : chứa danh sách `query_id` của các tài khoản, mỗi dòng ứng với một tài khoản
 - [proxy.txt](src/data/proxy.txt) : chứa danh sách proxy, proxy ở mỗi dòng sẽ ứng với tài khoản ở dòng đó trong file users.txt phía trên, để trống nếu không dùng proxy
 
+> Định dạng proxy: http://user:pass@ip:port
+
 > Lưu ý: Nếu nhận được thông báo đăng nhập thất bại, hãy lấy mới lại `query_id`
 
 
