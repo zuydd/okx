@@ -8,7 +8,7 @@ import socketService from "./socket.js";
 class GameService {
   constructor() {
     // sửa autoWin = true để chuyển sang chế độ dự đoán auto win
-    this.autoWin = true;
+    this.autoWin = false;
   }
 
   async playGame(user, totalTurn) {
